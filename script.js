@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const responseDiv = document.getElementById('response');
 
     // Fetch available networks from the proxy server
-    fetch('https://your-render-backend-url.onrender.com/proxy/network')
+    fetch('https://ia-cafe.onrender.com/proxy/network')
         .then(response => response.json())
         .then(data => {
             if (data.success) {
